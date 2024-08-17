@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#t1{
+    color: black;
+    font-size: 15px;
+}
+#home{
+    background-image: url(./images/img1.png);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+}
+.homeHead{
+    font-family: "Bona Nova SC", serif;
+    font-size: 70px;
+    color: black;
+    padding: 70px 0px 0 400px;
+    font-weight: 600;
+    text-align: center;
+}
+#ht1{
+    font-family: "Dancing Script", cursive;
+    font-size: 80px;
+}
+#body{
+    background-color: grey;
+    height: 700px;
+}
+#b1{
+    text-align: center;
+    font-family: "Bona Nova SC", serif;
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 20px;
+    color: black;
+}
+.p1{
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    padding-right: 60px;
+}
+.p2{
+    font-size: 20px;
+    color: red;
+    padding-right: 50px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    text-align: justify;
+}
+.b2{
+    text-align: center;
+    max-width: 1000px;
+}
+.card {
+    border-radius: 55px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.card-body {
+    text-align: center;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.more {
+    background-color: darkblue; /* Bootstrap primary color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 42px; /* Rounded corners */
+    padding: 10px 20px; /* Spacing inside the button */
+    font-size: 11px; /* Text size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+    outline: none; /* Remove default focus outline */
+    margin-left: 600px;
+   
+}
+
+.more:hover {
+    background-color: #070707; /* Darker shade of primary color */
+    transform: scale(1.05); /* Slightly enlarge the button */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+.more:focus {
+    outline: none; /* Ensure no outline on focus */
+}
+.carousel-item img {
+    height: 400px; /* Adjust height as needed */
+    object-fit: cover;
+}
+#kadh{
+    color:  rgb(195, 255, 0);
+    font-weight: 700;
+    font-size: 40px;
+    font-family: "Josefin Sans", system-ui;
+}
+.carousel-container {
+    position: relative; /* Allows absolute positioning of the button inside */
+}
+
+/* Button styling */
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #007bff; 
+    color: white; 
+    border: none;
+    border-radius: 20px;
+    padding: 15px 20px; 
+    font-size: 10px;
+    cursor: pointer;
+    z-index: 10; 
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.carousel-button:hover {
+    background-color: #0056b3; /* Darker shade for hover */
+    transform: translate(-50%, -50%) scale(1.05); /* Slightly enlarge the button */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+.spcl{
+    font-family: "Cinzel", system-ui;
+    font-weight: 600;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto; /* Enable vertical scroll only if needed */
+}
+
+h3, h6 {
+    text-align: center;
+}
+
+h3 {
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+h6 {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    max-width: 100%;
+}
+.box{
+    display: flex;
+    gap: 30px;
+    margin-left: 200px;
+}
+.div002{
+    opacity: 0;
+}
+.div002:hover{
+    opacity: 1;
+}
+#h6{
+    font-family: "Pacifico", cursive;
+    text-align: center;
+    color: red;
+}
+.div99{
+    display: flex;
+    margin-left: 170px;
+    gap: 80px;
+}
+.div88{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 400px;
+}
+#sell{
+    font-family: "Pacifico", cursive;
+    text-align: center;
+}
+
+
+.star-rating {
+    font-size: 1rem;
+    color: #ddd;
+    
+}
+.star-rating .filled {
+    color: green;
+}
